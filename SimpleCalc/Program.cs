@@ -18,6 +18,8 @@ namespace SimpleCalc
             Console.WriteLine("Result addition = " + resAdd);
             double resSub = a - b;
             Console.WriteLine("Result subtraction = " + resSub);
+            double mySin = Math.Sin(a);
+            Console.WriteLine("Result Sin = " + mySin);
             Console.ReadKey();
         }
     }
