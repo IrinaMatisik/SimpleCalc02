@@ -22,6 +22,8 @@ namespace SimpleCalc
             Console.WriteLine("Result Sin = " + mySin);
             double myCos = Math.Cos(a);
             Console.WriteLine("Result Cos = " + myCos);
+            double sqrt = Math.Sqrt(a);
+            Console.WriteLine("Result sqrt = " + sqrt);
             Console.ReadKey();
         }
     }
