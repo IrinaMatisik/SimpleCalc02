@@ -20,6 +20,8 @@ namespace SimpleCalc
             Console.WriteLine("Result subtraction = " + resSub);
             double mySin = Math.Sin(a);
             Console.WriteLine("Result Sin = " + mySin);
+            double myCos = Math.Cos(a);
+            Console.WriteLine("Result Cos = " + myCos);
             Console.ReadKey();
         }
     }
